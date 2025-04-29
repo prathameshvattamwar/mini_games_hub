@@ -1,0 +1,80 @@
+[
+  {
+    "repoName": "tetris_game",
+    "title": "Tetris",
+    "description": "Classic block-stacking puzzle game.",
+    "icon": "fas fa-cubes"
+  },
+  {
+    "repoName": "fruit_slicer_game",
+    "title": "Fruit Slicer",
+    "description": "Slice the fruits, avoid the bombs!",
+    "icon": "fas fa-lemon"
+  },
+  {
+    "repoName": "slot_machine_game",
+    "title": "Slot Machine",
+    "description": "Test your luck with this virtual slot machine.",
+    "icon": "fas fa-dice-d20"
+  },
+  {
+    "repoName": "ping_pong_game",
+    "title": "Ping Pong",
+    "description": "Classic two-player paddle game.",
+    "icon": "fas fa-table-tennis"
+  },
+  {
+    "repoName": "rock_paper_scissor",
+    "title": "Rock Paper Scissor",
+    "description": "Play the timeless hand game.",
+    "icon": "far fa-hand-rock"
+  },
+  {
+    "repoName": "snake_game",
+    "title": "Snake Game",
+    "description": "Guide the snake to eat food and grow.",
+    "icon": "fas fa-staff-snake"
+  },
+  {
+    "repoName": "typing_speed_test",
+    "title": "Typing Speed Test",
+    "description": "Check how fast you can type.",
+    "icon": "fas fa-keyboard"
+  },
+  {
+    "repoName": "word_scramble_game",
+    "title": "Word Scramble",
+    "description": "Unscramble the letters to form words.",
+    "icon": "fas fa-random"
+  },
+  {
+    "repoName": "tic_tac_toe",
+    "title": "Tic Tac Toe",
+    "description": "Classic X's and O's game.",
+    "icon": "fas fa-times"
+  },
+  {
+    "repoName": "guess_the_word",
+    "title": "Guess The Word",
+    "description": "Guess the hidden word, Hangman style.",
+    "icon": "fas fa-question"
+  },
+  {
+    "repoName": "brick_breaker",
+    "title": "Brick Breaker",
+    "description": "Break all the bricks with a ball and paddle.",
+    "icon": "fas fa-vector-square"
+  },
+  {
+    "repoName": "memory_challenge",
+    "title": "Memory Challenge",
+    "description": "Match pairs of hidden cards.",
+    "icon": "fas fa-brain"
+  },
+  {
+    "repoName": "quiz_app",
+    "title": "Quiz App",
+    "description": "Test your knowledge with various quizzes.",
+    "icon": "fas fa-graduation-cap"
+  }
+]

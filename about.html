@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Mini Game Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-about">
+    <div class="cursor-follower"></div>
+     <div class="noise-overlay"></div>
+
+    <header class="site-header">
+         <div class="container nav-container">
+            <a href="index.html" class="logo">GameHub</a>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Welcome</a></li>
+                    <li><a href="about.html" class="nav-link active">About</a></li>
+                    <li><a href="games.html" class="nav-link">Games</a></li>
+                    <li><a href="features.html" class="nav-link">Features</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+             <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+             </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-title-section">
+            <div class="container">
+                <h1 class="page-title anim-fade-up">About the Hub</h1>
+            </div>
+        </section>
+
+        <section class="about-content container">
+            <div class="about-text anim-scroll-fade">
+                <h2>The Creator</h2>
+                <p>Hi, I'm Prathamesh Vattamwar, a web developer passionate about creating interactive and engaging online experiences. This Mini Game Hub started as a personal project to consolidate several small games I built while learning and experimenting with web technologies like HTML, CSS, and JavaScript.</p>
+                <p>My goal was to create a fun, visually appealing space where anyone could quickly jump into a simple game for a few minutes of entertainment. I focused on clean code, responsive design, and adding a touch of flair with animations using GSAP.</p>
+            </div>
+             <div class="about-image anim-scroll-scale">
+
+             </div>
+        </section>
+
+         <section class="mission-section">
+            <div class="container anim-scroll-fade">
+                <h2>Our Mission</h2>
+                <p>To provide a simple, accessible, and ever-growing collection of mini-games that bring a little bit of joy and challenge to your day. We believe in the power of play and the potential of the web platform to deliver delightful experiences.</p>
+            </div>
+        </section>
+
+    </main>
+
+     <footer class="site-footer">
+         <div class="container">
+             <p>© 2025 Prathamesh Vattamwar. Built with <i class="fas fa-heart"></i> and code.</p>
+             <div class="social-links">
+                 <a href="https://github.com/prathameshvattamwar" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+             </div>
+         </div>
+     </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
