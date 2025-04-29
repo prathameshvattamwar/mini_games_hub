@@ -83,66 +83,58 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         if (document.querySelector('.horizontal-scroll-section')) {
-             const horizontalSection = document.querySelector('.horizontal-scroll-section');
-             const track = document.querySelector('.horizontal-track');
-             const items = gsap.utils.toArray('.h-scroll-item');
-
-             if (window.innerWidth >= 768) {
-                let scrollTween = gsap.to(track, {
-                    xPercent: -100 * (items.length - 1.7),
-                    ease: "none",
-                    scrollTrigger: {
-                        trigger: horizontalSection,
-                        pin: true,
-                        scrub: 1,
-                        start: "top top",
-                        end: () => "+=" + (track.scrollWidth - window.innerWidth),
-                    }
+            const horizontalSection = document.querySelector('.horizontal-scroll-section');
+            const track = document.querySelector('.horizontal-track');
+            const items = gsap.utils.toArray('.h-scroll-item');
+   
+            if (window.innerWidth >= 768) {
+               let scrollTween = gsap.to(track, {
+                   // Replace xPercent with a precise x calculation
+                   x: () => -(track.scrollWidth - window.innerWidth),
+                   ease: "none",
+                   scrollTrigger: {
+                       trigger: horizontalSection,
+                       pin: true,
+                       scrub: 1,
+                       start: "top top",
+                       // The end calculation remains the same, defining the scroll duration
+                       end: () => "+=" + (track.scrollWidth - window.innerWidth),
+                       // Add invalidateOnRefresh for robustness on resize/layout changes
+                       invalidateOnRefresh: true
+                   }
+               });
+   
+               // The item animation logic can remain the same
+               items.forEach(item => {
+                    gsap.from(item, {
+                        scale: 0.9,
+                        opacity: 0.7,
+                        scrollTrigger: {
+                            trigger: item,
+                            containerAnimation: scrollTween, // Ensures items animate relative to the horizontal scroll
+                            start: "left center",
+                            end: "center center",
+                            scrub: true,
+                        }
+                    });
                 });
-
-                items.forEach(item => {
-                     gsap.from(item, {
-                         scale: 0.9,
-                         opacity: 0.7,
-                         scrollTrigger: {
-                             trigger: item,
-                             containerAnimation: scrollTween,
-                             start: "left center",
-                             end: "center center",
-                             scrub: true,
-                         }
-                     });
-                 });
-             } else {
-                  gsap.utils.toArray('.h-scroll-item').forEach(item => {
-                     gsap.from(item, {
-                         opacity: 0,
-                         y: 50,
-                         duration: 0.8,
-                         ease: 'power2.out',
-                         scrollTrigger: {
-                             trigger: item,
-                             start: "top 85%"
-                         }
-                     });
-                 });
-             }
-        }
-
-        //  if (document.querySelector('.tech-icon')) {
-        //      gsap.from('.tech-icon', {
-        //          opacity: 0,
-        //          scale: 0.5,
-        //          y: 30,
-        //          duration: 0.6,
-        //          stagger: 0.1,
-        //          ease: 'back.out(1.4)',
-        //          scrollTrigger: {
-        //              trigger: '.tech-icons',
-        //              start: 'top 80%'
-        //          }
-        //      });
-        //  }
+   
+            } else {
+                 // Keep the mobile/vertical animation logic as is
+                 gsap.utils.toArray('.h-scroll-item').forEach(item => {
+                    gsap.from(item, {
+                        opacity: 0,
+                        y: 50,
+                        duration: 0.8,
+                        ease: 'power2.out',
+                        scrollTrigger: {
+                            trigger: item,
+                            start: "top 85%"
+                        }
+                    });
+                });
+            }
+       }
     }
 
 
