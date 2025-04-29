@@ -2,8 +2,7 @@
 
 Welcome to the Mini Game Hub! This project is a curated collection of simple, fun, browser-based mini-games developed by Prathamesh Vattamwar. It serves as a central portal to access various games hosted on GitHub Pages, presented within a modern, animated, multi-page website.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=flat-square)](https://prathameshvattamwar.github.io/your-repo-name/) <!-- Replace your-repo-name -->
-
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=flat-square)](https://prathameshvattamwar.github.io/mini_games_hub) 
 ---
 
 ## Description
