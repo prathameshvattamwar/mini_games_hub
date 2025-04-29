@@ -89,6 +89,3 @@ Prathamesh Vattamwar - [GitHub Profile](https://github.com/prathameshvattamwar)
 
 Project Link: [https://github.com/prathameshvattamwar/mini_games_hub](https://github.com/prathameshvattamwar/mini_games_hub) <!-- Replace your-repo-name -->
 
-## License
-
-Distributed under the MIT License. See `LICENSE` file for more information (if you choose to add one).
