@@ -87,7 +87,7 @@ Adding a new game to the hub is straightforward:
 
 Prathamesh Vattamwar - [GitHub Profile](https://github.com/prathameshvattamwar)
 
-Project Link: [https://github.com/prathameshvattamwar/your-repo-name](https://github.com/prathameshvattamwar/your-repo-name) <!-- Replace your-repo-name -->
+Project Link: [https://github.com/prathameshvattamwar/your-repo-name](https://github.com/prathameshvattamwar/mini_games_hub) <!-- Replace your-repo-name -->
 
 ## License
 
