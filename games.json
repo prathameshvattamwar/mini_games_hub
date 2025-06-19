@@ -12,10 +12,10 @@
     "icon": "fas fa-lemon"
   },
   {
-    "repoName": "slot_machine_game",
-    "title": "Slot Machine",
-    "description": "Test your luck with this virtual slot machine.",
-    "icon": "fas fa-dice-d20"
+    "repoName": "bubble_sorting_game",
+    "title": "Bubble Sorting",
+    "description": "Sort the color bubbles, show your IQ level",
+    "icon": "fas fa-circle"
   },
   {
     "repoName": "ping_pong_game",
@@ -34,6 +34,12 @@
     "title": "Snake Game",
     "description": "Guide the snake to eat food and grow.",
     "icon": "fas fa-staff-snake"
+  },
+  {
+    "repoName": "bouncing_ball_game",
+    "title": "Bouncing Ball",
+    "description": "Bounce the ball & increase concentration",
+    "icon": "fas fa-baseball-ball"
   },
   {
     "repoName": "typing_speed_test",
@@ -76,5 +82,11 @@
     "title": "Quiz App",
     "description": "Test your knowledge with various quizzes.",
     "icon": "fas fa-graduation-cap"
+  },
+   {
+    "repoName": "slot_machine_game",
+    "title": "Slot Machine",
+    "description": "Test your luck with this virtual slot machine.",
+    "icon": "fas fa-dice-d20"
   }
 ]
