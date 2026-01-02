@@ -54,6 +54,12 @@
     "icon": "fas fa-random"
   },
   {
+    "repoName": "dots-boxes",
+    "title": "Dots & Boxes",
+    "description": "Join the line. Create Box. Win!",
+    "icon": "fas fa-square"
+  },
+  {
     "repoName": "tic_tac_toe",
     "title": "Tic Tac Toe",
     "description": "Classic X's and O's game.",
@@ -90,3 +96,4 @@
     "icon": "fas fa-dice-d20"
   }
 ]
+
